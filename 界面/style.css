@@ -1,0 +1,97 @@
+/* 全页面背景图 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('R.jpg'); /* 替换成你的图片文件名 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  /* 容器：居中显示所有框 */
+  .wrapper {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* 可选，半透明背景提升可读性 */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius: 8px;
+  }
+  
+  /* 基础样式 */
+  .box {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  /* 各框样式 */
+  .box1 {
+    height: 80px;
+    background-color: #f0f8ff;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .box2 {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: #ffd700;
+  }
+  
+  .box3 {
+    float: left;
+    width: 150px;
+    height: 300px;
+    background-color: #ffa07a;
+    margin-top: 10px;
+    clear: left;
+  }
+  
+  .box4 {
+    margin-left: 170px;
+    height: 300px;
+    background-color: #ffffff;
+    overflow: auto;
+    margin-top: 10px;
+  }
+  
+  .box5 {
+    margin-left: 170px;
+    height: 160px;
+    background-color: #90ee90;
+    margin-top: 10px;
+  }
+  
+  .box6 {
+    clear: both;
+    height: 40px;
+    background-color: #dcdcdc;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0000EE;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #FF6600; /* 悬停时变成橙色 */
+    text-decoration: underline;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 10px auto;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+  }
